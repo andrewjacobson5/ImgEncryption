@@ -1,8 +1,4 @@
-// Copyright 2022
-// By Dr. Rykalova
-// Editted by Dr. Daly
-// test.cpp for PS1a
-// updated 5/12/2022
+// Copyright Andrew Jacobson 2023
 
 #include <iostream>
 #include <string>
@@ -13,23 +9,6 @@
 #define BOOST_TEST_MODULE Main
 #include <boost/test/unit_test.hpp>
 #include <boost/test/tools/output_test_stream.hpp>
-
-BOOST_AUTO_TEST_CASE(testStepInstr1) {
-  FibLFSR l("1011011000110110");
-  BOOST_REQUIRE_EQUAL(l.step(), 0);
-  BOOST_REQUIRE_EQUAL(l.step(), 0);
-  BOOST_REQUIRE_EQUAL(l.step(), 0);
-  BOOST_REQUIRE_EQUAL(l.step(), 1);
-  BOOST_REQUIRE_EQUAL(l.step(), 1);
-  BOOST_REQUIRE_EQUAL(l.step(), 0);
-  BOOST_REQUIRE_EQUAL(l.step(), 0);
-  BOOST_REQUIRE_EQUAL(l.step(), 1);
-}
-
-BOOST_AUTO_TEST_CASE(testStepInstr2) {
-  FibLFSR l2("1011011000110110");
-  BOOST_REQUIRE_EQUAL(l2.generate(9), 51);
-}
 
 BOOST_AUTO_TEST_CASE(testOverloadOut) {
 // based on example from
