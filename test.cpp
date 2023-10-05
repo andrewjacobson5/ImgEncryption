@@ -1,4 +1,4 @@
-// Copyright Andrew Jacobson 2023
+// Copyright 2023 Andrew Jacobson
 
 #include <iostream>
 #include <string>
