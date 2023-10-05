@@ -6,7 +6,8 @@ Encodes and decodes an image using a Fibonacci LFSR. Takes a specified image and
 To run this program you need to have SFML installed. To install on linux run the command ```sudo apt-get install libsfml-dev``` <br>
 To run the unit tests you also need the C++ Boost libraries. To install on linux run the command ```sudo apt-get install libboost-all-dev```
 ### Running the Code
-Using the provided makefile, you can run the program with three command line inputs. ```./
+Using the provided makefile, you can run the program with three command line inputs. ```./ImgEncyption cat.png output-file.png password123``` <br>
+To run it again but decrpyting the output file you can run ```./ImgEncyption output-file.png output-file.png password123```
 ### Features
 To convert an alphanumeric password to 1s and 0s, I used the bitset class from the standard library to convert them. This is because a bitset stores the information through booleans. I converted the password to a seed by making a rang-based for loop to iterate over the given password then adding the characters to a bitset of size 16 then converting the bitset into a string to be used as the seed.
 ### Issues
