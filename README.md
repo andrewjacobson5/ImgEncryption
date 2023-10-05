@@ -14,5 +14,5 @@ To convert an alphanumeric password to 1s and 0s, I used the bitset class from t
 When decrypting from the output file to get the original image, the SFML windows still say 'original' and 'encrypted'. When they should say 'original' and 'decrypted'. 
 
 ## Acknowledgements
-<https://en.cppreference.com/w/cpp/utility/bitset>
+<https://en.cppreference.com/w/cpp/utility/bitset> <br>
 <https://valelab4.ucsf.edu/svn/3rdpartypublic/boost-versions/boost_1_77_0/libs/test/doc/html/boost_test/testing_tools/output_stream_testing.html>
