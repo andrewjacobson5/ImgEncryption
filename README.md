@@ -1,7 +1,7 @@
 # Image Encryption
 
 ## Description
-Encodes and decodes an image using a Fibonacci Linear Feedback Shift Register. Takes a specified image and encodes it using a specified password, and decodes it if ran again with the same password and the output file that was produced from encoding.
+Encodes and decodes an image using a Fibonacci Linear Feedback Shift Register. Takes a specified image and encodes it using an alphanumeric password, and decodes it if ran again with the same password and the output file that was produced from encoding.
 ### Installation
 To run this program you need to have SFML installed. To install on linux run the command ```sudo apt-get install libsfml-dev``` <br>
 To run the unit tests you also need the C++ Boost libraries. To install on linux run the command ```sudo apt-get install libboost-all-dev```
